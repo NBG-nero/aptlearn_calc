@@ -24,8 +24,10 @@ class CustomBotton extends StatelessWidget {
           shape: const CircleBorder(),
         ),
         onPressed: onPressed,
-        child:
-            Text(buttonText, style: TextStyle(color: textColor, fontSize: 25)),
+        child: Text(
+            textAlign: TextAlign.center,
+            buttonText,
+            style: TextStyle(color: textColor, fontSize: 15)),
       ),
     );
   }
